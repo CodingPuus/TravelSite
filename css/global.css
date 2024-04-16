@@ -1,0 +1,95 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
+}
+
+.nav__logo {
+  color: #335576;
+  margin: 0;
+  text-align: left;
+}
+
+.nav__logo-link {
+  text-decoration: none;
+}
+
+.nav {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #ffffff;
+}
+
+.nav__item {
+  margin-right: 10px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+ 
+}
+
+.nav__link--active {
+  border-bottom: 6px solid #db7a4e;
+}
+
+
+.nav__link:hover {
+  border-bottom: 6px solid #db7a4e;
+  
+}
+
+footer {
+  background-color: #fefaf5;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 145px;
+}
+
+.footer__title {
+  color: #335576;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__hour-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.footer__hour-li {
+  margin-right: 25px;
+}
+
+.footer__sub-title {
+  color: #db7a4e;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  color: #335576;
+  font-size: 0.9rem;
+}
+
+.footer__icon {
+  width: 20px;
+  height: 22px;
+  padding-right: 35px;
+  padding-top: 20px;
+}
